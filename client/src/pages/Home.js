@@ -1,8 +1,10 @@
 import React from "react";
 import Container from "react-bootstrap/Container"
-
-const Home = props=>{
-
+import API from "../utils/API";
+const Home = ()=>{
+    API.getTop().then((res)=>{
+        console.log(res)
+    })
     return (
         <Container>
             <h1>Test</h1>

@@ -9,7 +9,6 @@ function Navigate(){
     return (
         <Navbar bg="light" expand="lg">
             <Nav.Link href="/">Home</Nav.Link>
-
             <Form inline>
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                 <Button variant="outline-success">Search</Button>
